@@ -1,0 +1,85 @@
+.footerInfoFlexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* background-color: #b88787; */
+}
+
+.footerInfo {
+  width: 20%;
+}
+
+.footerAcercaDe {
+  color: #f4925d;
+}
+
+footer {
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 20px 0;
+
+  h3 {
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: 18px;
+    color: #58871f;
+  }
+
+  h4 {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  p {
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-size: 18px;
+    color: #1f1f1f;
+    /* font-style: normal; */
+  }
+
+  a {
+    color: #1f1f1f;
+    text-decoration: none;
+    height: fit-content;
+    transition: 0.5s ease;
+  }
+
+  a:hover {
+    background-color: #eed75a;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.footerEnlace {
+  text-decoration-line: underline;
+}
+
+.footerRedesSociales {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.footerRedSocial {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.footerFlexContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerDeveloperContactLink {
+  color: #eaeaea;
+  background-color: #1f1f1f;
+  text-align: center;
+}
